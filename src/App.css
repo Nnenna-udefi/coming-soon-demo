@@ -1,0 +1,127 @@
+.main {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.main > h1 {
+  font-size: 36px;
+  text-shadow: 1px 1px rgb(0, 183, 255);
+}
+.main > h2 {
+  padding-top: 2rem;
+}
+
+body {
+  padding: 0 2rem;
+  background-image: url("../src/assets/black-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  /* font-size: 18px; */
+  /* opacity: 50%; */
+}
+
+.mainLogo {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Montez", cursive;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  /* padding: 1rem 0; */
+}
+
+.spin-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+input {
+  background-color: rgb(65, 64, 64);
+  /* color: beige; */
+  padding: 1rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+input::placeholder {
+  color: beige;
+}
+button {
+  background-color: rgb(0, 183, 255);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand";
+  margin: 2rem 0;
+  gap: 10px;
+}
+
+.countdown .box {
+  width: 200px;
+  height: 150px;
+}
+
+.countdown .box .value {
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.countdown .box .label {
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: logo-spin infinite 20s linear;
+}
+
+@media screen and (min-width: 600px) {
+  .countdown {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
