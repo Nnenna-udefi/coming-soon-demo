@@ -66,6 +66,7 @@ function App() {
         </div>
 
         <h2>Notify me when it's ready?</h2>
+        {/* <p className="promise">We'll never span you</p> */}
         <form>
           <input type="email" placeholder="Your Email" />
           <button>Subscribe</button>

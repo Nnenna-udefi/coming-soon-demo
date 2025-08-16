@@ -15,19 +15,17 @@
   margin: 0;
 }
 .main > h2 {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 .main .para {
   padding-top: 1rem;
 }
 body {
   padding: 2rem;
-  background-image: url("../src/assets/background-chat.png");
+  background-image: url("../src/assets/background-chat2.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
-  /* font-size: 18px; */
-  /* opacity: 50%; */
 }
 
 .mainLogo {
@@ -47,26 +45,26 @@ body {
 form {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .spin-flex {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
 }
 input {
-  background-color: rgb(65, 64, 64);
+  background-color: #4b5563;
   padding: 1rem;
   font-size: 14px;
   border: none;
   border-radius: 5px 0px 0px 5px;
+  color: white;
 }
 input::placeholder {
   color: beige;
 }
 button {
-  background-color: rgb(0, 183, 255);
+  background-color: #3b82f6;
   color: white;
   border: none;
   padding: 0.5rem 1.5rem;
@@ -74,7 +72,13 @@ button {
   cursor: pointer;
   border-radius: 0px 5px 5px 0px;
 }
-
+button:hover {
+  background-color: #60a5fa;
+}
+.main .promise {
+  font-family: "Montez", cursive;
+  font-weight: bold;
+}
 .countdown {
   display: flex;
   flex-direction: column;
