@@ -60,6 +60,10 @@ input {
   border-radius: 5px 0px 0px 5px;
   color: white;
 }
+input:focus {
+  background-color: none;
+  border: none;
+}
 input::placeholder {
   color: beige;
 }
