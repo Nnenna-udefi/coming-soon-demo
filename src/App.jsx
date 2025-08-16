@@ -39,10 +39,12 @@ function App() {
       <Stars className="spin" />
       <div className="main">
         <h1>Coming Soon</h1>
-        <p>
-          Our site is under construction, we are working very hard to give you
-          the best experience with this one.
-        </p>
+        <div className="para">
+          <p>
+            Our site is under construction, we are working very hard to give you
+            the best experience with this one.
+          </p>
+        </div>
 
         <div className="countdown">
           <div className="box">
